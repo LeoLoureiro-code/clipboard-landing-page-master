@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;600&display=swap');
+
+:root{
+
+    /* Color */
+
+    --buttonCyan: hsl(171, 66%, 44%);
+    --buttonBlue: hsl(233, 100%, 69%);
+    --titleColor: hsl(210, 10%, 33%);
+    --textColor:hsl(201, 11%, 66%);
+
+    /* Typography */
+
+    --fontSize: 16px;
+    --fontFamily: 'Bai Jamjuree', sans-serif;
+
+
+}
+
+html *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-size: var(--fontSize);
+    font-family: var(--fontFamily);
+    color: var(--textColor);
+}
+
+img{
+    height: 50px;
+}
+
+h2{
+    font-size: 27px;
+    text-align: center;   
+}
+
+h3{
+    font-size: 24px;
+    font-weight: 600;
+}
+
+    /* First section */
+
+.first_section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 7.9rem 2rem;
+}
+
+.logo{
+    height: 120px;
+}
+
+h1{
+    margin-top: 4rem;
+    font-size: 30px;
+    line-height: 2.5rem;
+    text-align: center;
+}
+
+.product_track{
+    margin-top: 1.3rem;
+    font-size: var(--fontSize);
+    text-align: center;
+    padding: 0 2px;
+    line-height: 1.5rem;
+}
+
+.buttons_div{
+    margin-top: 3.2rem;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.button{
+    font-size: 18px;
+    font-family: var(--fontFamily);
+    font-weight: 600;
+    padding: 15px 70px;
+    border-radius: 25px;
+    color: white;
+}
+
+.ios_button{
+    background-color: var(--buttonCyan);
+    margin-bottom: 1.5rem;
+    box-shadow: 1px 1px 1px var(--buttonCyan);
+}
+
+.mac_button{
+    background-color: var(--buttonBlue);
+    box-shadow: 1px 1px 1px var(--buttonBlue);
+}
+
+    /* Second section */
+
+.second_section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem 2rem;
+}
+
+.product_store{
+    margin-top: 1.2rem;
+    padding: 0 0.5rem;
+    line-height: 1.5rem;
+    text-align: center;
+}
+
+.product_computer{
+    height: 240px;
+    margin-top: 4.5rem;
+}
+
+.features_list{
+    font-family: var(--fontFamily);
+    margin-top: 3.3rem;
+    text-align: center;
+}
+
+.feature_title{
+    color: black
+}
+
+.features_item{
+    list-style-type: none;
+}
+
+.features_description{
+    margin-top: 0.6rem;
+    margin-bottom: 3.2rem;
+    line-height: 1.5rem;
+    padding: 0 0.5rem;
+}
+
+
+
+
