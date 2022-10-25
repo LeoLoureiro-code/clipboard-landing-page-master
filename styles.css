@@ -33,9 +33,16 @@ img{
     height: 50px;
 }
 
+.container{
+    max-width: 375px;
+    margin: 0 auto;
+}
+
 h2{
     font-size: 27px;
     text-align: center;   
+    padding: 0 20px;
+    color: var(--titleColor);
 }
 
 h3{
@@ -51,6 +58,7 @@ h3{
     align-items: center;
     flex-direction: column;
     padding: 7.9rem 2rem;
+    margin-bottom: 0rem;
 }
 
 .logo{
@@ -109,6 +117,7 @@ h1{
     justify-content: center;
     align-items: center;
     padding: 2rem 2rem;
+    
 }
 
 .product_store{
@@ -130,7 +139,7 @@ h1{
 }
 
 .feature_title{
-    color: black
+    color: var(--titleColor)
 }
 
 .features_item{
@@ -144,6 +153,40 @@ h1{
     padding: 0 0.5rem;
 }
 
+    /* Third section */
 
+.third_section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 7rem 0rem 6rem 0;
+    width: 100%;
+}
 
+.product_access{
+    text-align: center;
+    margin-top: 1.2rem;
+    line-height: 1.6rem;
+    padding: 0 2rem;
+}
 
+.product_devices{
+    margin-top: 3.6rem;
+    height: 220px;
+    width: 375px;
+    padding: 0 1rem;
+    
+}
+
+    /* Fourth section */
+
+.fourth_section{
+    margin-top: 0rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.product_tools{
+    align-items: center;
+}
