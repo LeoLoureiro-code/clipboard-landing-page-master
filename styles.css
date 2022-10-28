@@ -195,7 +195,7 @@ h1{
 }
 
 .product_tools_list{
-    /* margin-top: 5.5rem; */
+     margin-top: 2.5rem;
 }
 
 .product_tools_item{
@@ -205,18 +205,130 @@ h1{
     align-items: center;
 }
 
-.prodcut_tools_img{
+    /*tools images*/
+
+.paper_img{
     height: 40px;
-    margin-top: 5.2rem;
+    margin-top: 3rem;
+}
+
+.letter_img{
+    height: 35px;
+    margin-top: 3.5rem;
+}
+
+.eye_img{
+    height: 32px;
+    margin-top: 3.6rem;
 }
 
 .product_tools_title{
-    margin-top: 2.5rem;
+    margin-top: 2.6rem;
 }
 
 .product_tools_description{
     text-align: center;
-    margin-top: 1.5rem;
+    margin-top: 1.4rem;
     padding: 0 2rem;
     line-height: 1.5rem;
+}
+
+    /*fifth_section*/
+
+.fifth_section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 8.5rem;
+}
+
+.companies_list{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 5.5rem;
+}
+
+.companies_item{
+    list-style-type: none;
+    margin-bottom: 4rem;
+}
+
+.companies_img{
+    height: 40px;
+}
+
+.microsoft_img{
+    height: 28px;
+}
+
+.hp_img{
+    height: 47px;
+}
+
+.vector_img{
+    height: 25px;
+}
+
+.product_avaibility_title{
+    padding: 0 2rem;
+    margin-bottom: 1rem;
+}
+
+.product_avaibility{
+    padding: 0 2.2rem;
+    text-align: center;
+    line-height: 1.7rem;
+}
+
+.buttons_div_bottom{
+    margin-top: 2.7rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+footer{
+    margin-top: 10rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo_bottom{
+    height: 55px;
+    margin-top: 4rem;
+}
+
+.page_links{
+   
+    margin-top: 2.5rem;
+}
+
+.page_links_list{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    list-style-type: none;
+    font-family: var(--fontFamily);
+    
+}
+
+.page_links_item{
+    margin-bottom: 1.7rem;
+}
+
+.link{
+    color: var(--textColor);
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.social_links{
+    display: flex;
+   
 }
