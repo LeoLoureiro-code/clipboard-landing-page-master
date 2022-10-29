@@ -332,3 +332,20 @@ footer{
     display: flex;
    
 }
+
+.social_links_list{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style-type: none;
+    width: 9.5rem;
+    margin-top: 1.5rem;
+}
+
+.social_links_item{
+    
+}
+
+.social_links_img{
+    height: 25px;
+}
