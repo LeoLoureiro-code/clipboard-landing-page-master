@@ -288,6 +288,8 @@ h1 {
     justify-content: center;
 }
 
+/* Footer */
+
 footer {
     margin-top: 10rem;
     display: flex;
@@ -302,7 +304,6 @@ footer {
 }
 
 .page_links {
-
     margin-top: 2.5rem;
 }
 
@@ -353,7 +354,8 @@ footer {
 
     h2 {
         font-size: 35px;
-        padding: 0 20px;    }
+        padding: 0 20px;
+    }
 
     .first_section {
         display: flex;
@@ -415,7 +417,7 @@ footer {
         line-height: 2rem;
     }
 
-    .features_div{
+    .features_div {
         width: 100%;
         display: flex;
     }
@@ -445,7 +447,7 @@ footer {
     .third_section {
         padding: 8rem 0rem 4.5rem 0;
     }
-    
+
     .product_access {
         font-size: 18px;
         line-height: 1.8rem;
@@ -456,36 +458,128 @@ footer {
         margin-top: 6.3rem;
         height: 570px;
         width: 940px;
-    
+
     }
 
     /* Fourth section */
+
+    .fourth_section {
+        padding: 0 0rem;
+    }
 
     .product_tools {
         margin-top: 1.5rem;
         font-size: 18px;
     }
-    
+
     .product_tools_list {
-        margin-top: 4rem;
+        margin-top: 3.5rem;
         display: flex;
-        padding: 0 6rem;
+        justify-content: center;
+        align-items: center;
+        padding: 0 5.5rem;
+        width: 100%;
     }
 
     .product_tools_item {
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        width: 30%;
     }
 
     .product_tools_title {
-        margin-top: 0;
+        margin-top: 2.5;
     }
-    
+
     .product_tools_description {
         text-align: center;
+        margin-top: 1rem;
+        padding: 0 1rem;
+        line-height: 1.8rem;
+    }
+
+    /*tools images*/
+
+    .paper_img {
+        height: 40px;
         margin-top: 1.4rem;
-        padding: 0 0rem;
-        line-height: 1.5rem;
-    } 
+    }
+
+    .letter_img {
+        height: 35px;
+        margin-top: 0rem;
+    }
+
+    .eye_img {
+        height: 30px;
+        margin-top: 0rem;
+    }
+
+    /*fifth_section*/
+
+    .companies_div {
+        width: 81%;
+        padding: 1.5rem 0 0 2rem;
+    }
+
+    .companies_list {
+        flex-direction: row;
+        justify-content: space-between;
+        width: 100%;
+    }
+
+
+    .companies_img {
+        height: 50px;
+    }
+
+    .microsoft_img {
+        height: 34px;
+    }
+
+    .hp_img {
+        height: 55px;
+    }
+
+    .vector_img {
+        height: 30px;
+    }
+
+    .product_avaibility_title {
+        padding: 0 2rem;
+        margin-bottom: 1rem;
+    }
+
+    .product_avaibility {
+        padding: 0 22.3rem;
+        font-size: 18px;
+        margin-top: 0.3rem;
+        line-height: 2rem;
+    }
+    
+    .buttons_div_bottom {
+        width: 35%;
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+
+    /* Footer */
+
+    footer {
+        margin-top: 10rem;
+        display: flex;
+        flex-direction: row;
+    }
+
+    .page_links_list {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        list-style-type: none;
+        font-family: var(--fontFamily);
+    
+    }
+
 }
