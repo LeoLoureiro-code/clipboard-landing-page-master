@@ -25,7 +25,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [Add solution URL here](https://github.com/LeoLoureiro-code/clipboard-landing-page-master)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [Add live site URL here](https://leoloureiro-code.github.io/clipboard-landing-page-master/)
 
 ## My process
 
